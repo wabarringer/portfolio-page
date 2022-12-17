@@ -8,66 +8,45 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
-        <h1>Andy Barringer</h1>
-        <nav>
-            <li class="nav-links">
-                <a href="">About Me</a>
-            </li>
-            <li class="nav-links">
-                <a href="">Work</a>
-            </li>
-            <li class="nav-links">
-                <a href="">Contact</a>
-            </li>
-            <li class="nav-links">
-                <a href="">Resume</a>
-            </li>
-        </nav>
-    </header>
+    <header>       
+        <div class="header-container">
+            <div class="header-title"><h1>Andy Barringer</h1></div>
+            <div class="nav-bar">
+                <div class="nav-links"><a href="">About Me</a></div>
+                <div class="nav-links"><a href="">Work</a></div>
+                <div class="nav-links"><a href="">Contact</a></div>
+                <div class="nav-links"><a href="">Resume</a></div>
+            </div>
+        </div>
+    </header> 
+    
     <splash class="splash">
         <img src="assets/splash.jpg" alt="Close up of brick road in rain">
     </splash>
+    
     <main>
-        <section class="about-me">
-            <h2>About Me</h2>
-            <p class="description">Placeholder description</p>
-        </section>
-        <section class="work">
-            <h2>Work</h2>
-                <ul class="portfolio">
-                    <li>
-                        <a href="https://wabarringer.github.io/code-refactor/">Refactor Challenge - Bootcamp Week 1</a>
-                    </li>
-                    <li>
-                        <a href="">Project 2</a>
-                    </li>
-                    <li>
-                        <a href="">Project 3</a>
-                    </li>
-                    <li>
-                        <a href="">Project 4</a>
-                    </li>
-                    <li>
-                        <a href="">Project 5</a>
-                    </li>
-                </ul>
-            </section>
-        <section class="contact">
-            <h2>Contact</h2>
-                <ul class="contact-options">
-                    <li>
-                        (509) 514 - 0825
-                    </li>
-                    <li>
-                        <a href="mailto:wabarringer@gmail.com">wabarringer@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/wabarringer">GitHub</a>
-                    </li>
-                </ul>
-        </section>
+        <div class="about-me-container">
+            <div class="about-me-title"><h2>About Me</h2></div>
+            <div class="about-me-description"><p>A placeholder description holds a place, but it is not a description.</p></div>
+        </div>
+        <div class="work-container">
+            <div class="work-title"><h2>Work</h2></div>
+            <div class="portfolio-container">
+                <div class="project1"><a href="https://wabarringer.github.io/code-refactor/">Refactor Challenge</a></div>
+                <div class="project2"><a href="">Project 2</a></div>
+                <div class="project3"><a href="">Project 3</a></div>
+                <div class="project4"><a href="">Project 4</a></div>
+                <div class="project5"><a href="">Project 5</a></div>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-title"><h2>Contact</h2></div>
+                <div class="contact-options">(509) 514 - 0825</div>
+                <div class="contact-options"><a href="mailto:wabarringer@gmail.com">wabarringer@gmail.com</a></div>
+                <div class="contact-options"><a href="https://github.com/wabarringer">GitHub</a></div>  
+        </div>
     </main>
+    
     <footer>
         <h4>&copy 2022 Andy Barringer</h4>
     </footer>   

@@ -15,12 +15,18 @@ header {
     z-index: 3;
 }
 
+main {
+
+}
+
 footer {
     text-align: center;
 }
 
+/* Lined up content within header */
 .header-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     color: white;
 }
@@ -29,15 +35,17 @@ footer {
     padding: 10px;
 }
 
+/* Pushed navigation bar to the right of the header and applied flex  */
 .nav-bar {
     text-align: right;
+    display: flex;
 }
 
 .nav-links {
     padding: 20px;
-    display: inline-flex;
 }
 
+/* Removed blue underline effect from hyper link */
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -48,16 +56,10 @@ footer {
 }
 
 .about-me-container,
-.contact-container{
-    display: flex;
-    flex-direction: row;
-    /* margin: 5px; */
-}
-
+.contact-container,
 .work-container {
     display: flex;
     flex-direction: row;
-    /* height: fit-content; */
 }
 
 .about-me-title {
@@ -69,11 +71,23 @@ footer {
     padding: 10px;
 }
 
-.about-me-description {
+.about-me-section {
     width: 70%;
     height: 100px;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.profile-image {
+    background-image: url(./profile-mug.jpg);
+    background-size: 80px 80px;
+    border: 2px solid black;
+    height: 80px;
+    min-width: 80px;
 }
 
 .work-title {
@@ -189,3 +203,39 @@ footer {
     color: white;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) {
+    
+    .about-me-container,
+    .contact-container,
+    .work-container,
+    .header-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-title,
+    .work-title,
+    .contact-title {
+        border-bottom: solid 2px black;
+        border-right: none;
+        width: 100%;
+        text-align: center;
+        height: 50px;
+    }
+
+    .about-me-section {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .work-container,
+    .contact-container {
+        align-items: center ;
+    }
+    
+    .header-title {
+        text-align: center;
+    }
+
+  }

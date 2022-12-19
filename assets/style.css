@@ -238,4 +238,8 @@ footer {
         text-align: center;
     }
 
+    .portfolio-container {
+        width: 100%;
+    }
+
   }

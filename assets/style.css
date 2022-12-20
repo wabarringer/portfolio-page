@@ -130,7 +130,7 @@ footer {
     grid-area: project-5;
 }
 
-.project {
+.project-cards {
     border: 3px solid Black;
     text-align:center;
     border-radius: 5px;
@@ -140,13 +140,30 @@ footer {
     overflow: hidden;
 }
 
+.project-cards h1 {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(88, 22, 22);
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 1px;
+    position: absolute;
+    z-index: 2;
+}
+
 .project-image{
     width: 100%;
     height: 100%;
+    opacity: 0.5;
+}
+
+.project-image:hover {
+    opacity: 1.0;
 }
 
 #project1-image {
     background-image:url("./project1-code-refactor.PNG");
+    background-position: 50% 50%;
 }
 
 #project2-image,
@@ -156,27 +173,11 @@ footer {
     background-image:url("./under_construction.png");
 }
 
-.project h1 {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(85, 50, 17);
-    border: 2px solid white;
-    border-radius: 3px;
-    padding: 1px;
-    position: absolute;
-}
-
 #project-2 h1,
 #project-3 h1,
 #project-4 h1,
 #project-5 h1 {
     font-size: medium;
-}
-
-.project img {
-    width: 100%;
-    height: 100%;
-
 }
 
 .contact-title {
@@ -222,6 +223,10 @@ footer {
         width: 100%;
         text-align: center;
         height: 50px;
+    }
+
+    .about-me-title {
+        margin-top: 50px;
     }
 
     .about-me-section {

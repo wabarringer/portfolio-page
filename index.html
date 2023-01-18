@@ -1,87 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Andy Barringer</title>
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-    <header>       
-        <div class="header-container">
-            <div class="header-title"><h1>Andy Barringer</h1></div>
-            <div class="nav-bar">
-                <div class="nav-links"><a href="#about-me-jump">About Me</a></div>
-                <div class="nav-links"><a href="#work-jump">Work</a></div>
-                <div class="nav-links"><a href="#contact-jump">Contact</a></div>
-                <div class="nav-links"><a href="">Resume</a></div>
-            </div>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-title"><h1>Andy Barringer</h1></div>
+        <div class="nav-bar">
+          <div class="nav-links"><a href="#about-me-jump">About Me</a></div>
+          <div class="nav-links"><a href="#work-jump">Work</a></div>
+          <div class="nav-links"><a href="#contact-jump">Contact</a></div>
+          <div class="nav-links"><a href="">Resume</a></div>
         </div>
-    </header> 
-    
+      </div>
+    </header>
+
     <splash class="splash">
-        <img id="about-me-jump" src="assets/splash.jpg" alt="Close up of brick road in rain">
+      <img
+        id="about-me-jump"
+        src="assets/splash.jpg"
+        alt="Close up of brick road in rain"
+      />
     </splash>
-    
+
     <main>
+      <div class="about-me-container">
+        <div class="about-me-title"><h2 id="work-jump">About Me</h2></div>
+        <div class="about-me-section">
+          <p>
+            I'm a student developer, currently building a knowledge base in full
+            stack web and software development. Coding is completely new to me,
+            but I'm gaining new skills every minute of every day.
+          </p>
+          <div class="profile-image"></div>
+        </div>
+      </div>
 
-        <div class="about-me-container">
-            <div class="about-me-title"><h2 id="work-jump">About Me</h2></div>
-            <div class="about-me-section">
-                <p>I'm a student developer, currently building a knowledge base in full stack web and software development. Coding is completely new to me, but I'm gaining new skills every minute of every day.</p>
-                <div class="profile-image"></div>
+      <div class="work-container">
+        <div class="work-title"><h2>Work</h2></div>
+        <div class="portfolio-container">
+          <a
+            href="https://github.com/wabarringer/code-refactor"
+            id="project-1"
+            target="_blank"
+          >
+            <div class="project-cards">
+              <h1>Refactor Challenge</h1>
+              <div class="project-image" id="project1-image"></div>
             </div>
-        </div>
-
-        <div class="work-container">
-            <div class="work-title"><h2>Work</h2></div>
-            <div class="portfolio-container">
-                <a href="https://github.com/wabarringer/code-refactor"
-                id="project-1" target="_blank">
-                    <div class="project-cards">
-                        <h1>Refactor Challenge</h1>
-                        <div class="project-image" id="project1-image"></div>
-                    </div>
-                </a>
-                <a href="" id="project-2">
-                    <div class="project-cards">
-                        <h1>Project 2 (Under Construction)</h1>
-                        <div class="project-image" id="project2-image"></div>
-                    </div>
-                </a>
-                <a href="" id="project-3">
-                    <div class="project-cards">
-                        <h1>Project 3 (Under Construction)</h1>
-                        <div class="project-image" id="project3-image"></div>
-                    </div>
-                </a>
-                <a href="" id="project-4">
-                    <div class="project-cards">
-                        <h1>Project 4 (Under Construction)</h1>
-                        <div class="project-image" id="project4-image"></div>
-                    </div>
-                </a>
-                <a href="" id="project-5">
-                    <div class="project-cards">
-                        <h1>Project 5 (Under Construction)</h1>
-                        <div class="project-image" id="project5-image"></div>
-                    </div>
-                </a>
+          </a>
+          <a
+            href="https://wabarringer.github.io/project-1/"
+            id="project-2"
+            target="_blank"
+          >
+            <div class="project-cards">
+              <h1>Streamosaurus</h1>
+              <div class="project-image" id="project2-image"></div>
             </div>
+          </a>
+          <a href="" id="project-3">
+            <div class="project-cards">
+              <h1>Project 3 (Under Construction)</h1>
+              <div class="project-image" id="project3-image"></div>
+            </div>
+          </a>
+          <a href="" id="project-4">
+            <div class="project-cards">
+              <h1>Project 4 (Under Construction)</h1>
+              <div class="project-image" id="project4-image"></div>
+            </div>
+          </a>
+          <a href="" id="project-5">
+            <div class="project-cards">
+              <h1>Project 5 (Under Construction)</h1>
+              <div class="project-image" id="project5-image"></div>
+            </div>
+          </a>
         </div>
+      </div>
 
-        <div class="contact-container">
-            <div class="contact-title"><h2 h2 id="contact-jump">Contact</h2></div>
-                <div class="contact-options">(509) 514 - 0825</div>
-                <div class="contact-options"><a href="mailto:wabarringer@gmail.com">wabarringer@gmail.com</a></div>
-                <div class="contact-options"><a href="https://github.com/wabarringer">GitHub</a></div>  
+      <div class="contact-container">
+        <div class="contact-title"><h2 h2 id="contact-jump">Contact</h2></div>
+        <div class="contact-options">(509) 514 - 0825</div>
+        <div class="contact-options">
+          <a href="mailto:wabarringer@gmail.com">wabarringer@gmail.com</a>
         </div>
-
+        <div class="contact-options">
+          <a href="https://github.com/wabarringer">GitHub</a>
+        </div>
+      </div>
     </main>
-    
+
     <footer>
-        <h4>&copy 2022 Andy Barringer</h4>
-    </footer>   
-</body>
+      <h4>&copy 2022 Andy Barringer</h4>
+    </footer>
+  </body>
 </html>

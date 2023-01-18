@@ -166,7 +166,10 @@ footer {
     background-position: 50% 50%;
 }
 
-#project2-image,
+#project2-image {
+    background-image:url("./srceen-cap01.PNG");
+    background-position: 50% 50%;
+}
 #project3-image,
 #project4-image,
 #project5-image {
